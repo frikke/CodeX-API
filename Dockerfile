@@ -20,6 +20,9 @@ RUN node -v && npm -v
 # Create a non-root user with a UID between 10000 and 20000
 RUN useradd -m -u 10001 appuser
 
+# Verify that the user is set correctly
+RUN id -u appuser
+
 # Set up the working directory with correct permissions
 WORKDIR /app
 COPY . /app
