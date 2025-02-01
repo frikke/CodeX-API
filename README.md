@@ -1,5 +1,7 @@
 # CodeX API
 
+![CodeX](https://cronitor.io/badges/H2ppWF/production/F7bEkD7FFEXp0uypGbzlGEUtkzk.svg)
+
 > This API is still in very early stages of development. So consider not using the API in production since things might change in the future.
 
 ### Introducing the new CodeX API
@@ -121,6 +123,6 @@ This endpoint allows you to list all languages supported and their versions.
 }
 ```
 
-> This API is deployed on a free instance on [render](https://render.com/) so shoutout to render for providing a platform that helped bringing back the CodeX API after a long down time. Since I am using a free tier, the API might be slow sometimes, so please be patient while I try to fund this project.
+> This API is deployed on a free instance on [choreo](https://choreo.dev/) so shoutout to @wso2 for providing a platform that helped bringing back the CodeX API after a long down time. Since I am using a free tier, the API might be slow sometimes, so please be patient while I try to fund this project.
 
 Happy hacking!
